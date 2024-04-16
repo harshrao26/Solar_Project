@@ -56,7 +56,7 @@ function Dropdown({ buttonText, buttonColor, buttonHoverColor, menuItems }) {
               <NavLink
                 key={index}
                 to={menuItem.to}
-                className="block px-4 py-2 text-sm text-white hover:bg-gray-700 transition-all duration-300"
+                className="block px-4 py-2 text-sm text-white hover:bg-gray-700 transition-all ease-in-out  duration-300"
                 onClick={closeDropdown}
               >
                 {menuItem.label}

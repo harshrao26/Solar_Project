@@ -16,7 +16,7 @@ function Nav() {
   };
 
   return (
-    <nav className="bg-[#14a800] text-white px-4 md:px-20 py-4 z-50 sticky  top-0 w-full">
+    <nav className="bg-[#0B72BF] text-white px-4 md:px-20 py-4 z-50 sticky  top-0 w-full">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <NavLink to="/" className="">
           Home
@@ -43,7 +43,7 @@ function Nav() {
         <div className="hidden md:flex gap-10 text-[1.3vw] items-center">
           <Dropdown
             buttonText="Products"
-            buttonColor="bg-[#14a800]"
+            buttonColor="bg-[#0B72BF]"
             buttonHoverColor="hover:bg-gray-200"
             menuItems={[
               { to: "/products", label: "All Products" },
@@ -51,9 +51,10 @@ function Nav() {
               { to: "/products/category2", label: "Category 2" },
             ]}
           />
-          <NavLink to="/services">Services</NavLink>
+          <NavLink to="/service">Services</NavLink>
           <NavLink to="/contact">Contact</NavLink>
           <NavLink to="/about">About Us</NavLink>
+          <NavLink to="/whoweare">Who We Are?</NavLink>
         </div>
       </div>
 
@@ -67,7 +68,7 @@ function Nav() {
             <div className="inline-block">
               <Dropdown
                 buttonText="Products"
-                buttonColor="bg-[#14a800]"
+                buttonColor="bg-[#0B72BF]"
                 buttonHoverColor="hover:bg-gray-200"
                 menuItems={[
                   { to: "/products", label: "All Products" },
@@ -77,7 +78,7 @@ function Nav() {
               />
             </div>
             <NavLink
-              to="/services"
+              to="/service"
               className="block mt-2 font-normal"
               onClick={closeMobileMenu}
             >
@@ -96,6 +97,13 @@ function Nav() {
               onClick={closeMobileMenu}
             >
               About Us
+            </NavLink>
+            <NavLink
+              to="/whoweare"
+              className="block mt-2 font-normal"
+              onClick={closeMobileMenu}
+            >
+              Who We Are?
             </NavLink>
           </div>
         </div>

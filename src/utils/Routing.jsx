@@ -6,7 +6,7 @@ import ProductsDetails from "../pages/ProductsDetails";
 import Service from "../pages/Service";
 import Contact from "../pages/Contact";
 import About from "../pages/About";
-
+import WhoWeAre from '../pages/WhoWeAre'
 function Routing() {
   return (
     <Routes>
@@ -16,6 +16,7 @@ function Routing() {
       <Route path="/service" element={<Service />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/about" element={<About />} />
+      <Route path="/whoweare" element={<WhoWeAre />} />
     </Routes>
   );
 }
