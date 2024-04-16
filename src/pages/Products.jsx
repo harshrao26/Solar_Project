@@ -28,7 +28,7 @@ function Products() {
             >
               {ProductsFilter.map((value, index) => (
                 <div key={index}>
-                  <h3 className="font-semibold bg-[#bf710b] text-white mt-4 md:mt-8  rounded-lg text-base lg:text-[1.3vw] flex items-center justify-between px-4 lg:px-10 py-2 capitalize">
+                  <h3 className="font-semibold bg-[#0B72BF] text-white mt-4 md:mt-8  rounded-lg text-base lg:text-[1.3vw] flex items-center justify-between px-4 lg:px-10 py-2 capitalize">
                     {value.filterheadtext}
                     <IoMdArrowDropdown />
                   </h3>
