@@ -19,7 +19,7 @@ function Nav() {
     <nav className="bg-[#0B72BF] text-white px-4 md:px-20 py-4 z-50 sticky  top-0 w-full">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <NavLink to="/" className="">
-          Home
+          Logo
         </NavLink>
 
         {/* Mobile menu toggle button */}
